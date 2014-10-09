@@ -17,7 +17,7 @@ RUN \
   \
   \
   echo "===> install new kernel..."  && \
-  apt-get install -t wheezy-backports linux-image-amd64 && \
+  apt-get install -y -t wheezy-backports linux-image-amd64 && \
   \
   \
   echo "===> install docker..."  && \
