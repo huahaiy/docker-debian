@@ -7,5 +7,3 @@ The following changes are made:
 
 1. Install CA certificates
 2. Install wget
-3. Install docker.io, so we can run docker inside the container
-
