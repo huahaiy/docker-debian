@@ -19,10 +19,6 @@ RUN \
   apt-get install -y ca-certificates && \
   \
   \
-  echo "===> install docker..."  && \
-  wget -O - https://get.docker.com/ | sh && \
-  \
-  \
   echo "===> clean up..."  && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
