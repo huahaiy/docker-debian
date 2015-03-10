@@ -1,13 +1,13 @@
 #
 # Image of Debian Stable 
 #
-# Version     0.1
+# Version     0.2
 #
 
 # (semi)official base image from docker hub
 FROM debian:latest
 
-MAINTAINER Huahai Yang <hyang@juji.io>
+MAINTAINER Huahai Yang <hyang@juji-inc.com>
 
 RUN \
   echo "===> update..."  && \
