@@ -1,7 +1,7 @@
 #
 # Image of Debian Stable 
 #
-# Version     0.2
+# Version     0.3
 #
 
 # (semi)official base image from docker hub
@@ -12,11 +12,7 @@ MAINTAINER Huahai Yang <hyang@juji-inc.com>
 RUN \
   echo "===> update..."  && \
   apt-get update && \
-  apt-get install -y wget && \
-  \
-  \
-  echo "===> install CA certificates..."  && \
-  apt-get install -y ca-certificates && \
+  apt-get install -y wget ca-certificates ntp && \
   \
   \
   echo "===> clean up..."  && \
