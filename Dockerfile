@@ -12,7 +12,7 @@ MAINTAINER Huahai Yang <hyang@juji-inc.com>
 RUN \
   echo "===> update..."  && \
   apt-get update && \
-  apt-get install -y wget ca-certificates ntp && \
+  apt-get install -y wget ca-certificates && \
   \
   \
   echo "===> clean up..."  && \
