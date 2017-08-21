@@ -1,7 +1,7 @@
 #
 # Image of Debian Stable 
 #
-# Version     0.3
+# Version     0.4
 #
 
 # (semi)official base image from docker hub
