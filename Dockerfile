@@ -1,11 +1,11 @@
 #
-# Image of Debian Stable 
+# Image of Debian 
 #
-# Version     0.4
+# Version     0.5
 #
 
 # (semi)official base image from docker hub
-FROM debian:latest
+FROM debian:jessie
 
 MAINTAINER Huahai Yang <hyang@juji-inc.com>
 
