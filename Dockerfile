@@ -5,7 +5,7 @@
 #
 
 # (semi)official base image from docker hub
-FROM debian:strech
+FROM debian:stretch
 
 MAINTAINER Huahai Yang <hyang@juji-inc.com>
 
