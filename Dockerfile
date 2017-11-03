@@ -1,11 +1,11 @@
 #
 # Image of Debian 
 #
-# Version     0.5
+# Version     0.6
 #
 
 # (semi)official base image from docker hub
-FROM debian:jessie
+FROM debian:strech
 
 MAINTAINER Huahai Yang <hyang@juji-inc.com>
 
