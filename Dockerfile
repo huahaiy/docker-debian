@@ -12,7 +12,8 @@ MAINTAINER Huahai Yang <hyang@juji-inc.com>
 RUN \
   echo "===> update..."  && \
   apt-get update && \
-  apt-get install -y wget git ca-certificates && \
+  apt-get -y upgrade && \
+  apt-get -y --no-install-recommends install wget git ca-certificates && \
   \
   \
   echo "===> clean up..."  && \
