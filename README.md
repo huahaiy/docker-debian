@@ -1,7 +1,7 @@
 docker-debian
 =============
 
-Docker image for Debian. This is based on the (semi)offical Debian base image on docker hub. It is not Debian sanctioned, but it makes a good base image due to its small size.
+Docker image for Debian. 
 
 CA certificates, wget and git are installed.
 
