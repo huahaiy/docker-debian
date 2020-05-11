@@ -5,7 +5,7 @@
 #
 
 # official base image from docker hub
-FROM debian:jessie
+FROM debian:buster
 
 MAINTAINER Huahai Yang <hyang@juji-inc.com>
 

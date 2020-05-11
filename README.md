@@ -1,7 +1,7 @@
 docker-debian
 =============
 
-Docker image for Debian. 
+Docker image for Debian Stable. 
 
 CA certificates, wget and git are installed.
 
